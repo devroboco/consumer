@@ -4,7 +4,8 @@
   "main": "worker.ts",
   "type": "commonjs",
   "scripts": {
-    "start": "ts-node worker.ts"
+    "start": "ts-node worker.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.5",

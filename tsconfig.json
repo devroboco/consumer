@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
+    "skipLibCheck": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "noEmit": false,
-    "outDir": "dist"
-  },
-  "include": ["worker.ts", "rabbitmq.ts"]
+    "outDir": "dist",
+    "baseUrl": "src"
+  }
 }

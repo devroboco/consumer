@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noEmit": false,
+    "outDir": "dist"
+  },
+  "include": ["worker.ts", "rabbitmq.ts"]
+}

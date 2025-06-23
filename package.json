@@ -1,0 +1,21 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "main": "worker.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node worker.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.5",
+    "amqplib": "^0.10.3",
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^20.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
